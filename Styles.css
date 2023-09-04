@@ -11,6 +11,9 @@ body {
 	font-family: "Outfit", sans-serif;
 	background-color: #0d192b;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 section {
@@ -19,4 +22,5 @@ section {
 	align-items: center;
 	justify-content: center;
 	background-color: hsl(216, 50%, 16%);
+	max-width: 375px;
 }
