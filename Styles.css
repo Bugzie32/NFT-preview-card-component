@@ -55,7 +55,7 @@ p {
 .eth {
 	display: flex;
 	color: hsl(178, 100%, 50%);
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .eth > svg,
