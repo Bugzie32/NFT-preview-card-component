@@ -36,8 +36,8 @@ img {
 }
 
 h1 {
-	font-size: 2em;
-	padding: 0.8em 0;
+	font-size: 2.2em;
+	padding: 0.9em 0;
 }
 
 p {
@@ -49,11 +49,13 @@ p {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.6em 0;
+	border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
 .eth {
 	display: flex;
 	color: hsl(178, 100%, 50%);
+	font-weight: 600;
 }
 
 .eth > svg,
@@ -65,4 +67,29 @@ p {
 	display: flex;
 	align-items: center;
 	color: hsl(215, 51%, 70%);
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	padding-top: 1.6em;
+}
+
+.icon {
+	padding-right: 1.6em;
+}
+
+.icon > img {
+	width: 35px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.icon-text > p {
+	color: hsl(215, 51%, 70%);
+}
+
+.creator-link {
+	text-decoration: none;
+	color: white;
 }
